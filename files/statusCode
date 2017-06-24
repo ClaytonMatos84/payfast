@@ -1,0 +1,22 @@
+/*
+    https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html
+
+    -> C0nexão continuada
+    100 Continue: o servidor recebeu a solicitação e o cliente pode continuar a comunicação.
+
+    -> Sucesso
+    200 Ok: tudo ocorreu como esperado.
+    201 Created: um novo recurso foi criado no servidor.
+    202 Accepted
+    203 Non-Authorized
+
+    -> Redirect
+    301 Moved: a url solicitada foi movida.
+
+    -> Erro do lado do cliente
+    400 Bad Request: problemas na requisição do cliente.
+    404 Not Found: a url solicitada não foi encontrada.
+
+    -> Erro do lado do servidor
+    500 Internal Server Error: algo inesperado aconteceu do lado do servidor
+*/

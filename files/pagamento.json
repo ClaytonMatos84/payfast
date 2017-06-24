@@ -1,0 +1,15 @@
+{
+    "pagamento" : {
+        "forma_de_pagamento" : "cartao",
+        "valor" : 10.06,
+        "moeda" : "BRL",
+        "descricao" : "criando um pagamento"
+    },
+    "cartao" : {
+        "numero" : 1234567898765432,
+        "bandeira" : "Visa",
+        "ano_de_expiracao" : 2020,
+        "mes_de_expiracao" : 11,
+        "cvv" : 601
+    }
+}

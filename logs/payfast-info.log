@@ -1,0 +1,18 @@
+{"level":"info","message":"consultando pagamento: 8","timestamp":"2017-06-24T06:14:08.104Z"}
+{"level":"info","message":"::1 - - [24/Jun/2017:06:14:08 +0000] \"GET /pagamentos/pagamento/8 HTTP/1.1\" 200 158\n","timestamp":"2017-06-24T06:14:08.299Z"}
+{"level":"info","message":"pagamento cancelado","timestamp":"2017-06-24T06:20:15.490Z"}
+{"level":"info","message":"::1 - - [24/Jun/2017:06:20:15 +0000] \"DELETE /pagamentos/pagamento/5 HTTP/1.1\" 204 -\n","timestamp":"2017-06-24T06:20:15.512Z"}
+{"level":"info","message":"pagamento confirmado","timestamp":"2017-06-24T06:20:56.528Z"}
+{"level":"info","message":"::1 - - [24/Jun/2017:06:20:56 +0000] \"PUT /pagamentos/pagamento/21 HTTP/1.1\" 200 33\n","timestamp":"2017-06-24T06:20:56.534Z"}
+{"level":"info","message":"Processando requisicao de um novo pagamento","timestamp":"2017-06-24T06:21:36.337Z"}
+{"level":"info","message":"pagamento criado","timestamp":"2017-06-24T06:21:36.406Z"}
+{"level":"info","message":"cartao autorizado","timestamp":"2017-06-24T06:21:36.906Z"}
+{"level":"info","message":"::1 - - [24/Jun/2017:06:21:36 +0000] \"POST /pagamentos/pagamento HTTP/1.1\" 201 522\n","timestamp":"2017-06-24T06:21:36.922Z"}
+{"level":"info","message":"Processando requisicao de um novo pagamento","timestamp":"2017-06-24T06:22:56.739Z"}
+{"level":"info","message":"pagamento criado","timestamp":"2017-06-24T06:22:56.976Z"}
+{"level":"info","message":"cartao autorizado","timestamp":"2017-06-24T06:22:57.051Z"}
+{"level":"info","message":"::1 - - [24/Jun/2017:06:22:57 +0000] \"POST /pagamentos/pagamento HTTP/1.1\" 201 522\n","timestamp":"2017-06-24T06:22:57.057Z"}
+{"level":"info","message":"consultando pagamento: 22","timestamp":"2017-06-24T22:56:35.771Z"}
+{"level":"error","message":"MISS - key not found","timestamp":"2017-06-24T22:56:35.795Z"}
+{"level":"info","message":"pagamento encontrado: [{\"id\":22,\"forma_de_pagamento\":\"cartao\",\"valor\":10.06,\"moeda\":\"BRL\",\"status\":\"CANCELADO\",\"data\":\"2017-06-24T05:01:05.000Z\",\"descricao\":\"criando um pagamento\"}]","timestamp":"2017-06-24T22:56:36.431Z"}
+{"level":"info","message":"::1 - - [24/Jun/2017:22:56:36 +0000] \"GET /pagamentos/pagamento/22 HTTP/1.1\" 200 159\n","timestamp":"2017-06-24T22:56:36.439Z"}
