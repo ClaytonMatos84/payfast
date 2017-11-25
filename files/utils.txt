@@ -1,0 +1,10 @@
+# POST
+curl -X POST http://localhost:3000/pagamentos/pagamento -H "Content-type: applic ation/json" -v -d '{"pagamento":{"forma_de_pagamento":"cartao","valor":10.06,"moed a":"BRL","descricao":"criando um pagamento"},"cartao":{"numero":1234567898765432," bandeira":"Visa","ano_de_expiracao":2020,"mes_de_expiracao":11,"cvv":601}}' | json _pp
+
+curl http://localhost:3000/pagamentos/pagamento -X POST -v -H "Content-type: app lication/json" -d @files/pagamento.json | json_pp
+
+# PUT
+curl -X PUT http://localhost:3000/pagamentos/pagamento/25 -v
+
+# DELETE
+curl -X DELETE http://localhost:3000/pagamentos/pagamento/26 -v
